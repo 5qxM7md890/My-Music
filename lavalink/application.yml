@@ -1,0 +1,41 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+
+# إعدادات plugin (youtube-source) + تعطيل اليوتيوب المدمج (deprecated)
+# Lavalink يقدر يحمل plugins تلقائيًا من Maven حسب lavalink.plugins في الأسفل.
+# المصدر: docs + youtube-source README (شوف روابط في README.md)
+plugins:
+  youtube:
+    enabled: true
+    allowSearch: true
+    allowDirectVideoIds: true
+    allowDirectPlaylistIds: true
+    # جرّب هالتسلسل لأنه غالباً أكثر ثبات:
+    clients:
+      - MUSIC
+      - ANDROID_VR
+      - WEB
+      - WEBEMBEDDED
+
+lavalink:
+  plugins:
+    # أحدث نسخة وقت إعداد الباكج: 1.16.0 (Nov 3, 2025)
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.16.0"
+      snapshot: false
+  server:
+    password: "youshallnotpass"
+    sources:
+      youtube: false
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      nico: true
+      http: true
+      local: false
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO

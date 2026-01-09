@@ -1,0 +1,85 @@
+{
+  "controlTextChannelId": "1450973537300119655",
+  "panelMessageId": "1456290701016043689",
+  "cleanControlChannel": true,
+  "keep24_7": true,
+  "panelBannerUrl": null,
+  "emojis": {
+    "refresh": {
+      "id": "1449445887532072991",
+      "name": "icons_refresh"
+    },
+    "myRoomPanel": {
+      "id": "1449446233935450244",
+      "name": "MekoServer"
+    },
+    "musicNote": {
+      "id": "1452378261878472999",
+      "name": "Volume"
+    }
+  },
+  "restrictToRooms": true,
+  "restrictCommandsToControlChannel": true,
+  "rooms": [
+    {
+      "voiceChannelId": "1450973465657217147",
+      "bot": 1
+    },
+    {
+      "voiceChannelId": "1450973466969767946",
+      "bot": 2
+    },
+    {
+      "voiceChannelId": "1450973469369041066",
+      "bot": 3
+    },
+    {
+      "voiceChannelId": "1450973472460116174",
+      "bot": 4
+    },
+    {
+      "voiceChannelId": "1450973488751054879",
+      "bot": 5
+    },
+    {
+      "voiceChannelId": "1450973492190253211",
+      "bot": 6
+    },
+    {
+      "voiceChannelId": "1450973493939142768",
+      "bot": 7
+    },
+    {
+      "voiceChannelId": "1450973497273618462",
+      "bot": 8
+    },
+    {
+      "voiceChannelId": "1455904690859409418",
+      "bot": 9
+    },
+    {
+      "voiceChannelId": "1455904738846441534",
+      "bot": 10
+    },
+    {
+      "voiceChannelId": "1455904766558212211",
+      "bot": 11
+    },
+    {
+      "voiceChannelId": "1455904805867360297",
+      "bot": 12
+    },
+    {
+      "voiceChannelId": "1455904901426315390",
+      "bot": 13
+    },
+    {
+      "voiceChannelId": "1455904996653662310",
+      "bot": 14
+    },
+    {
+      "voiceChannelId": "1455905019910951087",
+      "bot": 15
+    }
+  ]
+}
